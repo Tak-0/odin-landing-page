@@ -45,23 +45,31 @@ h1 {
 
 .hero-content {
     display: flex;
-    gap: 50px;
+    gap: 30px;
     padding: 100px 0;
     max-width: 684px;
     margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
     
     
+}
+
+.hero-text {
+    max-width: 350px;
 }
 
 .hero-text p {
     color: #e5e7eb;
     margin-top: 20px;
+    
 }
 
 img {
     height: 200px;
     border: 3px solid;
     color: #e5e7eb;
+
 } 
 
 .first-button {
@@ -82,11 +90,13 @@ img {
     display: flex;
     list-style: none;
     justify-content: center;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 .fact {
     width: 120px;
-    margin: 0 15px;
+    margin: 10px 15px;
 }
 
 .box {
@@ -99,6 +109,49 @@ img {
 
 .fact-text {
     font-size: 10px;
+    text-align: center;
+}
+
+.quote-section {
+    text-align: center;
+    padding: 60px;
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.signup-section {
+    padding: 30px 60px;
+}
+.signup-box {
+    background-color: #3882f6;
+    margin: 50px auto;
+    max-width: 720px;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    padding: 15px 30px;
+}
+
+.signup-heading {
+    color: white;
+    font-size: 15px;
+}
+
+.signup-paragraph {
+    color: white;
+    font-weight: 200;
+}
+
+.second-button {
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 5px 20px;
+    border: #f9faf8 solid 2px;
+    color: #f9faf8;
 }
 
 footer {
